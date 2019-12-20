@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
+title: Towards an Inline X-ray Inspection Software Platform
+description: Progress and plans
 theme: uncover
 paginate: true
 _paginate: false
@@ -9,17 +9,22 @@ _paginate: false
 
 ![bg](./assets/gradient.jpg)
 
-# <!--fit--> Marp CLI example
+# <!--fit-->Towards an Inline X-ray Inspection Software Platform
 
-Hosting Marp slide deck on the web
+ Progress and plans
 
-https://github.com/yhatt/marp-cli-example
+###### Zhihua Liang ######
+###### visionlab ######
+###### 20-12-2019
 
 <style scoped>a { color: #eee; }</style>
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+![30%](https://img.favpng.com/19/0/20/machine-learning-deep-learning-with-python-artificial-intelligence-png-favpng-qFCv7GVnQNDpErJCX6ukpSHLw.jpg)
+##### <!--fit--> Determine the orientation and position with deep learning 
+
+Resnet + Fine tuning 
 
 ---
 
@@ -64,12 +69,17 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
+![bg](/assets/Framwork.svg)
+
+---
+
 ### <!--fit--> :ok_hand:
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+![bg 40% opacity blur](./assets/Sinterklaas_2007.jpg)
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+### Happy Christmas ([@magicknight](https://github.com/magicknight))
 
-https://github.com/yhatt/marp-cli-example
+https://github.com/magicknight/neptune
+
