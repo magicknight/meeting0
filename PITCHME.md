@@ -28,6 +28,29 @@ Resnet + Fine tuning
 
 ---
 
+![bg right 100%](/assets/nvidia.png)
+### **[Nvidia P100 GPU](https://www.nvidia.com/en-us/data-center/tesla-p100/)**
+
+##### ~ 20 minutes per epoch
+##### 100 epoch = 2000 m =  33 hours ~ one and half day
+---
+
+![bg right 100%](/assets/prediction.png)
+### **[Euler angles](https://en.wikipedia.org/wiki/Euler_angles)**
+
+##### $\varphi$: $0\degree \to 360\degree$
+##### $\theta$:  $-10\degree \to 10\degree$
+##### $\psi$:  $-10\degree \to 10\degree$
+---
+
+![bg right 37%](/assets/predic.png)
+### **[Mean Absolute Error](https://en.wikipedia.org/wiki/Mean_absolute_error)**
+
+##### $\varphi$: 0.14642
+##### $\theta$:  0.01692
+##### $\psi$:  0.01699
+---
+
 ![bg](#123)
 ![](#fff)
 
@@ -79,7 +102,7 @@ Resnet + Fine tuning
 
 ![bg 40% opacity blur](./assets/Sinterklaas_2007.jpg)
 
-### Happy Christmas ([@magicknight](https://github.com/magicknight))
+### Happy Christmas ([@saibaster](https://twitter.com/saibaster))
 
-https://github.com/magicknight/neptune
+https://gitlab.com/saibaster
 
