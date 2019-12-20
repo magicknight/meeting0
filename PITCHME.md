@@ -28,6 +28,41 @@ Resnet + Fine tuning
 
 ---
 
+![bg right 50%](./assets/model.png)
+
+## **[Restnet50](https://en.wikipedia.org/wiki/Residual_neural_network)**
+
+#### A 50-layers convolutional neural network
+
+[![Deploy to Netlify h:1.5em](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/1-QSgNoGSAcr0TTpIYUFQUCoWcrye5-sy)
+
+---
+
+![bg right 10%](./assets/model.png)
+
+### **[Training](https://en.wikipedia.org/wiki/Residual_neural_network)**
+
+###### training a ResNet-50 on a single GPU took ~14 days (10^18 single precision ops)
+
+
+[![Deploy to Netlify h:1.5em](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/1-QSgNoGSAcr0TTpIYUFQUCoWcrye5-sy)
+
+---
+
+![bg right 100%](./assets/head.png)
+
+### **[Fine tuning](https://en.wikipedia.org/wiki/Residual_neural_network)**
+
+###### Setp 0, get the resnet50 which traned on imagenet without the head layers, then add our own head to it.
+
+###### Step 1, Freeze the body layers, trains the head layers for 10 epochs
+
+###### Step 2, Train all the layers for 100 epochs
+
+[![Deploy to Netlify h:1.5em](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/1-QSgNoGSAcr0TTpIYUFQUCoWcrye5-sy)
+
+---
+
 ![bg right 100%](/assets/nvidia.png)
 ### **[Nvidia P100 GPU](https://www.nvidia.com/en-us/data-center/tesla-p100/)**
 
@@ -49,50 +84,11 @@ Resnet + Fine tuning
 ##### $\varphi$: 0.14642
 ##### $\theta$:  0.01692
 ##### $\psi$:  0.01699
----
 
-![bg](#123)
-![](#fff)
-
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [ZEIT Now](https://zeit.co/now)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
 
 ---
 
-![bg right 70%](https://icongr.am/octicons/mark-github.svg)
-
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Fork on GitHub h:1.5em](https://img.shields.io/github/forks/yhatt/marp-cli-example?label=Fork&style=social)](https://github.com/yhatt/marp-cli-example)
-
-<!-- _footer: ":information_source: Require to pass ACCESS_TOKEN as secret." -->
-
----
-
-![bg right 70%](https://www.netlify.com/img/press/logos/logomark.svg)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
-
----
-
-![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
-
-## **[ZEIT Now](https://zeit.co/now)**
-
-#### Ready to write & host your deck!
-
-[![Deploy with ZEIT Now h:1.5em](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/yhatt/marp-cli-example)
-
----
-
-![bg](/assets/Framwork.svg)
+![bg](/assets/Framwork.png)
 
 ---
 
